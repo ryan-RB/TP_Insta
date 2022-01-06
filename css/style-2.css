@@ -1,0 +1,108 @@
+/*reset*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,figure,ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/*header*/
+header{
+    margin-bottom: 5rem;
+}
+header h1{
+    color: rgb(216, 216, 216);
+    text-transform : uppercase;
+    text-align: center;
+    font-size:larger;
+}
+section{
+    text-align: center;
+    width: 23rem;
+    border: solid 0.1rem rgb(201, 201, 201);
+    margin-bottom: 0.5rem;
+    padding: 20px 30px 20px 30px;
+    display: block;
+    margin: 0rem auto;
+    max-width: 90rem; 
+}
+section img{
+    margin: 0rem auto;
+    max-width: 90rem; 
+    width: auto;
+}
+.bonjour{
+    margin-bottom: 1rem;
+}
+.hi{
+    font: caption;
+    font-size: medium;
+    color: rgba(40, 153, 40, 0.623);
+}
+.hi-2{
+    margin-bottom: 2rem;
+}
+
+.user{
+    margin-top: 1rem;
+}
+.account{
+    display: block;
+    margin: 1px 750px 20px 750px;
+}
+figure{
+    display: block;
+    margin: 0rem auto;
+    max-width: 60rem; 
+    background-color: #222;
+}
+figure figcaption h2{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+figure figcaption img{
+    max-width: 6rem;
+    padding: 1rem;
+}
+figure ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: -2.6rem;
+}
+figure ul li img{
+    max-width: 100%;
+    height: auto;
+    border: solid .1rem #222;
+    display: block;
+
+}
+figure figcaption h2{
+    color: #fff;
+    padding: 0rem;
+}
+.app{
+    text-align: center;
+    width: 23rem;
+    margin: 0 auto;
+    border: none;
+}
+.ios{
+    width: 10rem;
+    line-height: 130px;
+}
+.android{
+    width: 10rem;
+    vertical-align: top;
+}
+footer{
+    text-align: center;
+}

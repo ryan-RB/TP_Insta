@@ -1,0 +1,166 @@
+/*reset*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,figure,ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/*header*/
+header{
+    margin-bottom: 5rem;
+}
+header h1{
+    color: rgb(216, 216, 216);
+    text-transform : uppercase;
+}
+body{
+    text-align: center;
+    background-color: #fafafa;
+}
+
+img.Logo{
+    margin-bottom: 3rem;
+}
+
+.login{
+    text-align: center;
+    width: 23rem;
+    margin: 0 auto;
+    border: solid 0.1rem rgb(201, 201, 201);
+    margin-bottom: 0.5rem;
+    padding: 20px 30px 20px 30px;
+}
+
+.recherche{
+    margin: 0 auto;
+    font-size: 1rem;
+    line-height: 4rem;
+    padding: 0px 160px 0px 10px;
+    background: #fafafa;
+    border: solid .1rem #7c7c7c;
+    border-radius: .3rem;
+    height: 40px;
+}
+.or{
+    text-align: center;
+    transform: translateY(2.3rem);
+    background-color: #fff;
+    width: 3rem;
+    color: #959595;
+    margin: 0rem auto;
+    margin-bottom: 1.5rem;
+}
+hr {
+    border: none;
+    background-color: grey;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 0.1rem;
+    margin-top: 0rem;
+    margin-bottom: 1.5rem;
+}
+
+hr:after {
+    background: #fff;
+    text-transform: uppercase;
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+
+}
+.connexion{
+    background:linear-gradient(to bottom, #3c95f4 5%, #3c95f4 100%);
+	background-color:#3c95f4;
+	border-radius:6px;
+	border:1px solid #7ba8f7;
+	display:inline-block;
+	cursor:pointer;
+	color:#fafafa;
+	font-family:Trebuchet MS;
+	font-size:15px;
+	padding: 8px 135px;
+	text-decoration:none;
+}
+.Facebook{
+    vertical-align: middle;
+    height: 1rem;
+    margin-bottom: 0.25rem;
+}
+.FB{
+    display: inline-block;
+    color: #375184;
+    font: bold;
+}
+.FB:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.no-password{
+    margin: -0.3rem;
+    font: bold;
+    font-size: 0.9rem;
+    color: #375184;
+}
+.no-password:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.recherche{
+    margin-bottom: 0.5rem;
+}
+
+.forget{
+    display: inline-block;
+    text-align: center;
+    vertical-align: left;
+    width: 23rem;
+    margin: 0 auto;
+    border: solid 0.1rem rgb(201, 201, 201);
+    padding: 20px 30px 20px 30px;
+}
+.forget h2{
+    font-size: medium;
+}
+.Subscribe{
+    display: inline-block;
+    color: #3897f0;
+}
+.Subscribe:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.error{
+    display: block;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    width: 100%;
+}
+.success{
+    display: block;
+    color: rgb(0, 129, 0);
+    text-align: center;
+    width: 100%;
+}
+
+.app{
+    text-align: center;
+    width: 23rem;
+    margin: 0 auto;
+}
+.ios{
+    width: 10rem;
+}
+.android{
+    width: 10rem;
+    vertical-align: top;
+}
