@@ -1,1 +1,1 @@
-[Voir la page](https://ryan-rb.github.io/TP-Instagram/home.html)
+[Voir la page](https://ryan-rb.github.io/TP-Instagram/login.html)
