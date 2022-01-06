@@ -1,15 +1,22 @@
 /*reset*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+html{
+    font-size: 100%;
+}
 body{
-    font-family: 'Roboto', sans-serif;
+    font: 1rem 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    line-height: 2rem;
 }
 h1,h2,h3,h4,h5,h6,figure,ul,ol{
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
     list-style: none;
 }
-a{
-    text-decoration: none;
+*{
+    box-sizing: border-box;
 }
 
 /*header*/
@@ -17,10 +24,11 @@ header{
     margin-bottom: 5rem;
 }
 header h1{
-    color: rgb(216, 216, 216);
+    color: rgb(155, 155, 155);
     text-transform : uppercase;
+    font-size: large;
+    font: bolder;
     text-align: center;
-    font-size:larger;
 }
 section{
     text-align: center;
@@ -76,7 +84,6 @@ figure figcaption img{
 figure ul{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-left: -2.6rem;
 }
 figure ul li img{
     max-width: 100%;
@@ -95,13 +102,15 @@ figure figcaption h2{
     margin: 0 auto;
     border: none;
 }
+.app h3{
+    margin-bottom: 0.5rem;
+}
 .ios{
     width: 10rem;
     line-height: 130px;
 }
 .android{
     width: 10rem;
-    vertical-align: top;
 }
 footer{
     text-align: center;

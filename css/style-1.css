@@ -1,24 +1,38 @@
 /*reset*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+html{
+    font-size: 100%;
+}
 body{
-    font-family: 'Roboto', sans-serif;
+    font: 1rem 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    line-height: 2rem;
 }
 h1,h2,h3,h4,h5,h6,figure,ul,ol{
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
     list-style: none;
 }
-a{
-    text-decoration: none;
+*{
+    box-sizing: border-box;
 }
+
 
 /*header*/
 header{
     margin-bottom: 5rem;
 }
+header .insta{
+    color: black;
+}
 header h1{
-    color: rgb(216, 216, 216);
+    color: rgb(155, 155, 155);
     text-transform : uppercase;
+    font-size: large;
+    font: bolder;
+    text-align: center;
 }
 body{
     text-align: center;
@@ -35,18 +49,21 @@ img.Logo{
     margin: 0 auto;
     border: solid 0.1rem rgb(201, 201, 201);
     margin-bottom: 0.5rem;
-    padding: 20px 30px 20px 30px;
+    padding: 20px 30px 20px 0px;
 }
 
 .recherche{
     margin: 0 auto;
+    margin-left: 0.8rem;
+    margin-bottom: 0.5rem;
     font-size: 1rem;
     line-height: 4rem;
-    padding: 0px 160px 0px 10px;
+    padding: 0px 115px 0px 20px;
     background: #fafafa;
     border: solid .1rem #7c7c7c;
     border-radius: .3rem;
     height: 40px;
+   
 }
 .or{
     text-align: center;
@@ -54,8 +71,8 @@ img.Logo{
     background-color: #fff;
     width: 3rem;
     color: #959595;
-    margin: 0rem auto;
     margin-bottom: 1.5rem;
+    margin-left: 10rem;
 }
 hr {
     border: none;
@@ -64,8 +81,10 @@ hr {
     overflow: visible;
     text-align: center;
     height: 0.1rem;
-    margin-top: 0rem;
+    margin-top: -0.25rem;
     margin-bottom: 1.5rem;
+    margin-left: 2rem;
+    
 }
 
 hr:after {
@@ -74,25 +93,29 @@ hr:after {
     padding: 0 4px;
     position: relative;
     top: -13px;
-
+    
 }
 .connexion{
     background:linear-gradient(to bottom, #3c95f4 5%, #3c95f4 100%);
 	background-color:#3c95f4;
 	border-radius:6px;
 	border:1px solid #7ba8f7;
-	display:inline-block;
+	display:block;
 	cursor:pointer;
 	color:#fafafa;
 	font-family:Trebuchet MS;
 	font-size:15px;
-	padding: 8px 135px;
+	padding: 8px 100px 10px 100px;
 	text-decoration:none;
+    margin: 0 auto;
+    width: 100%;
+    margin-left: 0.75rem;
 }
 .Facebook{
     vertical-align: middle;
     height: 1rem;
     margin-bottom: 0.25rem;
+    margin-left: 3rem;
 }
 .FB{
     display: inline-block;
@@ -109,14 +132,13 @@ hr:after {
     font: bold;
     font-size: 0.9rem;
     color: #375184;
+    margin-left: 3rem;
 }
 .no-password:hover{
     text-decoration: underline;
     cursor: pointer;
 }
-.recherche{
-    margin-bottom: 0.5rem;
-}
+
 
 .forget{
     display: inline-block;
@@ -124,6 +146,7 @@ hr:after {
     vertical-align: left;
     width: 23rem;
     margin: 0 auto;
+    margin-bottom: 2rem;
     border: solid 0.1rem rgb(201, 201, 201);
     padding: 20px 30px 20px 30px;
 }
@@ -159,8 +182,10 @@ hr:after {
 }
 .ios{
     width: 10rem;
+    margin-top: 1rem;
 }
 .android{
     width: 10rem;
+    margin-top: 1rem;
     vertical-align: top;
 }
